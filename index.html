@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Tune-Up Pup</title>
+    <!-- Google Fonts -->
+        <!-- Lilita One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+        <!-- Varela Round -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-text">
+                    <h1 class="primary-heading-white margin-bottom-4">Come <span>Tune-Up </span>Your K9!</h1>
+                    <p class="primary-text-white margin-bottom-4">Tune-up Pup offers full in home services for rehabilitation and training for all K9’s. Both young and old!Our style of training is understanding and learning the way dogs think, and why they do what they do.</p>
+                    <div class="header-button padding-bottom-4 margin-top-2">
+                        <a href="#pricing" class="btn-primary">Take A Walk</a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="img/prestige-puppy-logo-03.png" alt="header image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/tune-up-pup-logo-05.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">list</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="#about">About</a>
+                <a class="nav__link" href="#services">Services</a>
+                <a class="nav__link" href="#training">Training</a>
+                <a class="nav__link" href="#prestige">Prestige Puppy</a>
+                <a class="nav__link" href="#testimonials">Testimonials</a>
+                <a class="btn-primary" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- About Section -->
+<section class="about padding-bottom-8 padding-top-8" id="about">
+    <div class="container">
+        <div class="about-box">
+            <div class="about-text">
+                <h4 class="tertiary-heading-primary margin-bottom-2">About Us</h4>
+                <img class="margin-bottom-2" src="img/puppy-paw-02.png" alt="image">
+                <h2 class="primary-heading-primary margin-bottom-4">We'll Keep You & Your Pup Happy</h2>
+                <p class="primary-text-grey margin-bottom-2">When I was 12 years old, my grandfather asked me “if you could, what type of business would you start”. Little did I know that question would put me on a path to establish a passion and my future business.</p>
+                <p class="primary-text-grey margin-bottom-2">My grandfather helped me purchase my very own AKC registered Chocolate Labs. I then learned how to breed and train dogs. My fascination to better understand how dogs think, and how they communicate, drove me to learn all that I could at a young age.</p>
+                <p class="primary-text-grey margin-bottom-4">There has been countless hours of research, hands on experiences with thousands of dogs, and training from Cesar Millan “AKA - the Dog Whisperer”. What started as a hobby helping out my friends and family, has now turned into a passion to help dog owners understand to live in the moment with their dogs, and bring back the joy of “WHY” they brought a dog into their life.</p>
+                <div class="about-checkbox margin-bottom-4">
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">K9 education</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Mobile In-home rehabilitation/training</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Prestige Puppy</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">E-collar language training </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-button margin-bottom-4">
+                    <a href="#" class="btn-primary">More About Us</a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/puppy-picture-paw-01.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner Section -->
+<section class="banner" id="banner">
+    <div class="container">
+        <div class="banner-box">
+            <div class="banner-text">
+                <h1 class="primary-heading-white margin-bottom-4">Have a K9 that needs rehabilitating or training?</h1>
+                <p class="primary-text-white margin-bottom-4">Tune-up Pup also offers a full service, prestige experience puppy training called Prestige Puppy. When bringing your new family member home, your puppy will have been trained on all basic commands, house broken, crated trained, leash trained. You will also receive in-home training sessions and receive all supplies needed for the new member of your family!</p>
+                <form action="">
+                    <div class="banner-item">
+                        <input type="text" name="First Name" id="" class="input" placeholder="Email Address" required>
+                        <input type="submit" value="Submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+            <div class="banner-image">
+                <img src="img/Yuppies - Designing.png" alt="banner image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission Section -->
+<section class="mission">
+    <div class="container">
+        <div class="mission-box">
+            <div class="mission-text">
+                <h4 class="tertiary-heading-primary margin-bottom-2">Our Goals</h4>
+                <img class="margin-bottom-2" src="img/puppy-paw-02.png" alt="image">
+                <h2 class="primary-heading-primary margin-bottom-2">Training Pups Is Our Mission</h2>
+                <p class="primary-text-grey margin-bottom-4">Our goal is for all owners to rekindle the joy of why you first brought a new member into your “Pack” And become CONFIDENT as the pack leader.</p>
+                <div class="mission-bullets margin-bottom-4">
+                    <div class="mission-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <h5 class="tertiary-heading-primary margin-bottom-1">Be confident on how to correct your dog</h5>
+                    </div>
+                    <div class="mission-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <h5 class="tertiary-heading-primary margin-bottom-1">Be confident how to walk you dog</h5>
+                    </div>
+                    <div class="mission-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <h5 class="tertiary-heading-primary margin-bottom-1">Be confident to take you dog with you to any location </h5>
+                    </div>
+                </div>
+                <div class="mission-button margin-bottom-4">
+                    <a href="#" class="btn-primary">View Services</a>
+                </div>
+            </div>
+            <div class="mission-image">
+                <div class="mission-image-box">
+                    <div class="mission-image-icon margin-bottom-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="60" height="60"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M40.13333,17.2c-9.4993,0 -17.2,7.7007 -17.2,17.2c0,9.4993 7.7007,17.2 17.2,17.2c9.4993,0 17.2,-7.7007 17.2,-17.2c0,-9.4993 -7.7007,-17.2 -17.2,-17.2zM34.4,63.06667c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v74.34297c0,3.268 2.6557,5.9237 5.9237,5.9237c3.11893,0 5.7061,-2.42431 5.9125,-5.53177l2.50833,-37.65859c0.1032,-1.50213 1.3476,-2.6763 2.85547,-2.6763c1.50787,0 2.75227,1.16871 2.85547,2.66511l2.50833,37.66979c0.2064,3.1132 2.79357,5.53177 5.9125,5.53177c3.268,0 5.9237,-2.6557 5.9237,-5.9237v-68.60964c0,-3.1648 2.56853,-5.73333 5.73333,-5.73333h28.66667c2.06765,0.02924 3.99087,-1.05709 5.03322,-2.843c1.04236,-1.78592 1.04236,-3.99474 0,-5.78066c-1.04236,-1.78592 -2.96558,-2.87225 -5.03322,-2.843h-22.93333zM130.88125,84.81302l-5.99089,5.22942c-5.06827,-2.6832 -12.08434,-4.48965 -15.35234,1.69089c-1.46773,0.12613 -5.79541,0 -8.16328,0c-2.98133,0 -3.82969,1.85357 -3.82969,4.46797c0,4.6956 1.59369,7.61476 3.82969,8.80156l7.55859,2.97864c0,21.41973 4.41198,29.5625 4.41198,29.5625c5.7448,-6.36973 12.78802,-5.67734 12.78802,-5.67734v5.73333c-5.418,0 -7.28984,5.73333 -7.28984,5.73333h-4.17683c-3.1648,0 -5.73333,2.56853 -5.73333,5.73333c0,3.1648 2.56853,5.73333 5.73333,5.73333h26.91979c1.52824,0 2.75616,-0.53782 3.7513,-1.37734c1.03894,0.88911 2.36146,1.37761 3.72891,1.37734c3.16643,0 5.73333,-2.5669 5.73333,-5.73333c0,-3.16643 -2.5669,-5.73333 -5.73333,-5.73333c0,-17.43507 -20.74231,-26.95778 -21.29844,-32.02604c-0.32107,-2.87813 -1.38576,-4.95709 1.6013,-10.60442c3.98467,-7.5336 1.51172,-15.88984 1.51172,-15.88984z"></path></g></g></svg>
+                    </div>
+                    <h4 class="tertiary-heading-primary margin-bottom-1">500+</h4>
+                    <h3 class="tertiary-heading-primary">Puppies Trained</h3>
+                </div>
+                <div class="mission-image-box">
+                    <div class="mission-image-icon margin-bottom-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="60" height="60"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M37.84896,17.2c-5.24027,0 -9.18229,5.73333 -9.18229,5.73333c-30.014,0 -13.45479,47.90711 -22.27266,54.97058c0,0 5.40519,6.68515 22.27266,6.68515v5.72214c-4.6612,12.1432 -28.66667,7.65427 -28.66667,30.0888h46.00104c4.03627,-2.4424 17.06563,-9.21589 17.06563,-9.21589c-3.1132,-3.32533 -7.60428,-9.0747 -9.23828,-13.4263c-3.5776,-1.79453 -6.60292,-3.90341 -7.96172,-7.44661v-5.78932c1.08933,0 4.30152,-0.25164 5.43099,-0.50391c-2.55707,-3.9388 -4.71432,-12.91639 -4.71432,-17.95026c0,-12.80254 5.51341,-23.33297 14.65808,-29.93203c-2.75773,-10.55507 -8.88138,-18.93568 -23.39245,-18.93568zM131.86667,17.2c-12.7452,0 -20.57102,8.76743 -22.46302,20.25703c9.26507,4.96507 15.29636,15.66911 15.29636,29.14818c0,4.21399 -0.98282,8.26881 -2.04922,11.41067c0.3956,1.55373 0.61589,3.28636 0.61589,5.20703c0,14.16133 -14.33333,28.28594 -14.33333,28.28594c3.1132,1.3588 13.07334,6.42008 17.14401,8.89114h45.92266c0,-30.1 -24.4412,-21.5 -28.66667,-34.4v-8.6c1.90347,-0.95747 6.43656,-7.54991 7.00989,-12.69844c1.49067,-0.11467 4.45677,-3.75882 4.45677,-7.02109c0,-3.26227 -1.03711,-4.63477 -1.93724,-5.16224c0,0 1.93724,-4.30663 1.93724,-9.51823c0,-10.4404 -2.8208,-20.06667 -11.46667,-20.06667c0,0 -2.48253,-5.73333 -11.46667,-5.73333zM86,40.13333c-15.43413,0 -27.95,9.29624 -27.95,25.93438c0,7.0348 3.94167,12.51927 3.94167,12.51927c0,0 -1.79167,0.88061 -1.79167,4.63594c0,7.29853 4.69192,9.04792 4.69192,9.04792c0.6536,5.7792 9.64141,14.24375 9.64141,14.24375v9.6638c-4.82747,14.4824 -34.4,4.93828 -34.4,38.62161h91.73333c0,-33.798 -29.57253,-24.13921 -34.4,-38.62161v-9.6638c0,0 8.98781,-8.46455 9.64141,-14.24375c0,0 4.69192,-3.24005 4.69192,-9.04792c0,-4.0248 -1.79167,-4.63594 -1.79167,-4.63594c0,0 3.225,-6.13377 3.225,-11.98177c0,-11.72467 -5.8824,-20.73854 -15.76667,-20.73854c0,0 -4.1968,-5.73333 -11.46667,-5.73333z"></path></g></g></svg>
+                    </div>
+                    <h4 class="tertiary-heading-primary margin-bottom-1">100+</h4>
+                    <h3 class="tertiary-heading-primary">Owners Helped</h3>
+                </div>
+                <div class="mission-image-box">
+                    <div class="mission-image-icon margin-bottom-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="60" height="60"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M151.93333,17.2c-4.74965,0 -8.6,3.85035 -8.6,8.6c0,4.74965 3.85035,8.6 8.6,8.6c4.74965,0 8.6,-3.85035 8.6,-8.6c0,-4.74965 -3.85035,-8.6 -8.6,-8.6zM111.03854,17.25599c-1.24987,-0.09962 -2.52885,0.14826 -3.68412,0.75026l-7.86093,4.07604c-6.56467,-3.4916 -15.96823,-1.36615 -15.96823,-1.36615l8.20808,13.68385l-6.33802,19.22682l-45.79948,24.23229l-9.1151,-3.03464c-0.54109,-0.18782 -1.10727,-0.2935 -1.67969,-0.31354c-2.87015,-0.11209 -5.38039,1.91678 -5.87278,4.74661c-0.49239,2.82982 1.18502,5.58735 3.92435,6.45131l7.67057,2.55312l0.59349,16.94245l-0.30234,1.27657l-13.20234,17.86067c-0.35789,0.4833 -0.63753,1.01989 -0.82865,1.59011l-3.29219,9.85417c-1.00122,3.00544 0.62319,6.25353 3.62845,7.25528c3.00526,1.00175 6.25364,-0.62208 7.25593,-3.62716l2.98984,-8.99192l6.33802,-8.57761l9.09271,-9.63021l1.18698,11.18672l-9.17109,12.40729c-0.35789,0.4833 -0.63753,1.01989 -0.82865,1.59011l-3.29219,9.85417c-0.64852,1.94442 -0.21031,4.08713 1.14952,5.62081c1.35984,1.53369 3.43466,2.22529 5.44274,1.81425c2.00808,-0.41105 3.64427,-1.86229 4.29211,-3.80694l2.98984,-8.99192l13.38151,-18.08464c0.05845,-0.08802 0.11446,-0.17764 0.16796,-0.26875l0.17917,-0.08958l10.13411,-20.425l30.73829,-15.53151l19.97708,4.17682l0.02239,-0.03359c0.33598,0.06392 0.67701,0.09764 1.01901,0.10078h17.2112l5.33021,2.38516c1.87042,0.8369 4.04528,0.61213 5.70501,-0.58961c1.65973,-1.20174 2.55208,-3.19778 2.34079,-5.23598c-0.21129,-2.03819 -1.49412,-3.80875 -3.36507,-4.64447l-6.45,-2.87786c-0.73598,-0.33077 -1.53348,-0.50248 -2.34036,-0.50391h-16.69609l-11.08594,-9.19349l7.56979,-1.15339c0.50195,-0.07676 0.99147,-0.21985 1.45573,-0.42552l14.5013,-6.42761h4.97188c2.06765,0.02924 3.99087,-1.05709 5.03322,-2.843c1.04236,-1.78592 1.04236,-3.99474 0,-5.78066c-1.04236,-1.78592 -2.96558,-2.87225 -5.03322,-2.843h-6.18125c-0.80231,-0.00053 -1.5958,0.16733 -2.32917,0.49271l-14.91563,6.60677l-0.20156,0.0336l-8.25286,-1.39974l3.16901,-14.70286l12.98958,-4.97188c2.5628,-0.9804 4.25521,-3.44072 4.25521,-6.18125v-6.23724c0,-2.16147 -1.75781,-3.91927 -3.91927,-3.91927h-9.6862l-3.70651,-2.74349c-1.04633,-0.77687 -2.26628,-1.22174 -3.51614,-1.32135z"></path></g></g></svg>
+                    </div>
+                    <h4 class="tertiary-heading-primary margin-bottom-1">500+</h4>
+                    <h3 class="tertiary-heading-primary">Happy Puppies</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Video Section -->
+<!-- <section class="video">
+    <div class="video-box">
+        <div class="video-video">
+            <iframe width="100%" height="800" src="https://www.youtube.com/embed/s9TYI-Ik2lc">
+            </iframe>
+        </div>
+    </div>
+</section> -->
+
+<!-- Services Section -->
+<section class="services padding-top-12 padding-bottom-12" id="services">
+    <div class="container">
+        <h2 class="primary-heading-primary margin-bottom-2 text-align-center">Puppy Packages!</h2>
+        <h4 class="tertiary-heading-primary margin-bottom-4 text-align-center">What Can We Offer Your Pup?</h4>
+        <p class="primary-text-grey margin-bottom-8">Just as dogs live in the moment… we want you to remember the first time you met your four legged family remember, and bring that joy back into your relationship. Disobedience or lack of education on the nature of you K9 can make you and your families life very challenging and frustrating! And could even make you regret your choice of bringing them into your home… That’s where we want to step in and assist with the missing communication between you and your pup.</p>
+        <div class="services-box padding-bottom-2">
+            
+            <div class="services-card">
+                <div class="services-card-image">
+                    <img src="img/dog-5831810_1280.jpg" alt="">
+                </div>
+                <div class="services-card-text">
+                    <h4 class="tertiary-heading-primary margin-bottom-4">Package 1 - <span>$399</span> </h4>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">2 In-home training sessions</h5>
+                    </div>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">first session is 90-120 minutes ($250)</h5>
+                    </div>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Slip collar ($15)</h5>
+                    </div>
+                    <div class="services-item margin-bottom-2">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Leash ($20)</h5>
+                    </div>
+                    <div class="services-item">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Traveling charge for over 35 miles Renton</h5>
+                    </div>
+                    <div class="services-button margin-top-4 margin-bottom-2">
+                        <a href="#" class="btn-secondary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-card">
+                <div class="services-card-image">
+                    <img src="img/border-collie-662786_1280.jpg" alt="">
+                </div>
+                <div class="services-card-text">
+                    <h4 class="tertiary-heading-primary margin-bottom-4">Package 2 - <span>$999</span> </h4>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">4 In-home training sessions</h5>
+                    </div>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">First session is 90-120 minutes ($250)</h5>
+                    </div>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Slip Collar ($15)</h5>
+                    </div>
+                    <div class="services-item margin-bottom-2">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Leash ($20)</h5>
+                    </div>
+                    <div class="services-item">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">And More!</h5>
+                    </div>
+                    <div class="services-button margin-top-4 margin-bottom-2">
+                        <a href="#" class="btn-secondary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-card">
+                <div class="services-card-image">
+                    <img src="img/dog-5238562_1280.jpg" alt="">
+                </div>
+                <div class="services-card-text">
+                    <h4 class="tertiary-heading-primary margin-bottom-4">Package 3 - <span>$2500</span> </h4>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">7 In-home training sessions</h5>
+                    </div>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">First session is 90-120 minutes ($250)</h5>
+                    </div>
+                    <div class="services-item margin-bottom-1">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Slip collar ($15)</h5>
+                    </div>
+                    <div class="services-item margin-bottom-2">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">Leash ($20)</h5>
+                    </div>
+                    <div class="services-item">
+                        <img src="img/puppy-paw-02.png" alt="">
+                        <h5 class="primary-text-grey">And More!</h5>
+                    </div>
+                    <div class="services-button margin-top-4 margin-bottom-2">
+                        <a href="#" class="btn-secondary">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-button-box margin-top-6 padding-bottom-4">
+            <a href="#services-details-content" class="btn-primary">Full Package Details</a>
+        </div>
+    </div>
+</section>
+
+<!-- Info Section -->
+<section class="info padding-bottom-8 padding-top-8" id="training">
+    <div class="container">
+        <h2 class="primary-heading-primary margin-bottom-2 text-align-center">Woof Do You Offer?</h2>
+        <h4 class="tertiary-heading-primary margin-bottom-4 text-align-center">How Training Works</h4>
+        <div class="info-box">
+
+            <div class="info-item margin-bottom-4">
+                <div class="info-item-heading margin-bottom-1">
+                    <img src="img/puppy-paw-01.png" alt="image">
+                <h5 class="tertiary-heading-primary">Service 1</h5>
+                </div>
+                <div class="info-item-text">
+                    <p class="primary-text-grey">Rehabilitation and training based on you and your families needs. And a education of the way the “pack” operates and the way a dog thinks. Mastering the walk is critical and ultimately the decision maker in your packs success.</p>
+                </div>
+            </div>
+            <div class="info-item margin-bottom-4">
+                <div class="info-item-heading margin-bottom-1">
+                    <img src="img/puppy-paw-01.png" alt="image">
+                <h5 class="tertiary-heading-primary">Service 2</h5>
+                </div>
+                <div class="info-item-text">
+                    <p class="primary-text-grey">Prestige Puppy is our premium puppy training service and package. Your puppy will stay with the trainer for 2-4 weeks learning all basic commands and socializing skills. Your puppy will be delivered with complete care package and everything needed for proper care and training, and will also come with consultation and training sessions. </p>
+                </div>
+            </div>
+            <div class="info-item margin-bottom-4">
+                <div class="info-item-heading margin-bottom-1">
+                    <img src="img/puppy-paw-01.png" alt="image">
+                <h5 class="tertiary-heading-primary">Service 3</h5>
+                </div>
+                <div class="info-item-text">
+                    <p class="primary-text-grey">E-collar training and guidance. Teaching your K9 a new language. Just as they understand the language of the leash, they will understand the language of the e-collar. Perfect for outdoor activities. Includes collar and proper use and training. (Not used as a focused correctional method)</p>
+                </div>
+            </div>
+            <div class="info-item margin-bottom-4">
+                <div class="info-item-heading margin-bottom-1">
+                    <img src="img/puppy-paw-01.png" alt="image">
+                <h5 class="tertiary-heading-primary">Step 1</h5>
+                </div>
+                <div class="info-item-text">
+                    <p class="primary-text-grey">Tune-Up Pups heart and mission is to bring back the “why” and “joy” of having a K9 in your life. Rehabilitation and training are a must in dog ownership. Understanding and learning the how dogs think differently from humans will completely change your prospective and approach to training your dog.</p>
+                </div>
+            </div>
+            <div class="info-item margin-bottom-4">
+                <div class="info-item-heading margin-bottom-1">
+                    <img src="img/puppy-paw-01.png" alt="image">
+                <h5 class="tertiary-heading-primary">Step 2</h5>
+                </div>
+                <div class="info-item-text">
+                    <p class="primary-text-grey">We understand that bringing a new puppy into your life can be challenging. So what if you could bring a trained puppy into you family? One that will have basic obedience, crate trained, house broken, leash trained, socialized…. and so much more! Puppies will live with trainers for 2-4 weeks and be socialized and will be brought into many different environments and experiences. In the end you will have a well balanced puppy who knows their role in the pack.</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="info-item-heading margin-bottom-1">
+                    <img src="img/puppy-paw-01.png" alt="image">
+                <h5 class="tertiary-heading-primary">Step 3</h5>
+                </div>
+                <div class="info-item-text">
+                    <p class="primary-text-grey">The e-collar is a very controversial subject. Is it humane, is safe, do dogs understand what’s happening? The answer is YES to all of these questions. If properly used, and properly trained. Is this mandatory…? Absolutely not! But it can be a great tool to have and use. Just as you have learned that when you phone vibrates it means you are receiving a text or call, in the same way we can use a e-collar to get the attention of our K9’s. This is a advanced training and should be taught once you K9 has all basic training completed, walks properly on the leash, and knows their place in the pack.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Prestige Section -->
+<section class="prestige padding-bottom-8 padding-top-8" id="prestige">
+    <div class="container">
+        <div class="prestige-box">
+            <div class="prestige-text">
+                <h4 class="tertiary-heading-primary margin-bottom-2">Special K9 Training</h4>
+                <img class="margin-bottom-2" src="img/puppy-paw-02.png" alt="image">
+                <h2 class="primary-heading-primary margin-bottom-4">Prestige Puppy</h2>
+                <p class="primary-text-grey margin-bottom-2">Are you wanting to get a puppy but might not want to or know how to start off a puppy in its early stages of life? If this sounds like you or if you know someone in this situation, then Prestige Puppy is your answer!</p>
+                <p class="primary-text-grey margin-bottom-2">Prestige Puppy is a full puppy care and training package. We have connections with multiple breeders, and often have puppies that have completed their training, graduated, and are ready for their new homes. You can also pick out your puppy from another breeder and have us complete the training process for you.</p>
+                <p class="primary-text-grey margin-bottom-4">You puppy will be trained with the trainer for 2-4 weeks, staying with the trainer through the completion of their training. They will have all basic commands completed as well as being trained in many other areas.</p>
+                <div class="prestige-checkbox margin-bottom-4">
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Crate trained</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">House broken</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Vehicle trained</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Groomer trained</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Socialized with other dogs, animals, and many humans of all ages</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="prestige-button margin-bottom-4">
+                    <a href="#" class="btn-primary">More Prestige Puppy</a>
+                </div>
+            </div>
+            <div class="prestige-image">
+                <img src="img/prestige-puppy-logo-03.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Puppy Section -->
+<section class="puppy padding-bottom-8 padding-top-8" id="puppy">
+    <div class="container">
+        <div class="puppy-box">
+            <div class="puppy-text">
+                <h4 class="tertiary-heading-primary margin-bottom-2">More Prestige Puppy</h4>
+                <img class="margin-bottom-2" src="img/puppy-paw-02.png" alt="image">
+                <h2 class="primary-heading-primary margin-bottom-4">For The Elite</h2>
+                <p class="primary-text-grey margin-bottom-2">Don’t stress about the frustrations that can come with the early training process such as house breaking, puppy biting, whining, chewing, leash training, getting up all hours of the night socializing to new environments…. Etc. </p>
+                <p class="primary-text-grey margin-bottom-2">This will also include a 90-120 minute introduction and training to your new puppy, as well as a follow up 90-120 minute training session. Call and text support is available as well.</p>
+                <p class="primary-text-grey margin-bottom-4">Prestige Puppy will come complete with all the items you will need to for your new family member. Please contact us for more questions, custom training packages, and available puppies!</p>
+                <div class="puppy-checkbox margin-bottom-4">
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Crate</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Dog bed</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Leash and slip collar</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Toys</h5>
+                        </div>
+                    </div>
+                    <div class="checkbox-item">
+                        <img src="img/puppy-paw-01.png" alt="image">
+                        <div class="checkbox-text">
+                            <h5 class="tertiary-heading-primary margin-bottom-1">Food</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="puppy-button margin-bottom-4">
+                    <a href="#" class="btn-primary">Contact Us</a>
+                </div>
+            </div>
+            <div class="puppy-image">
+                <img src="img/prestige-puppy-logo-03.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="primary-heading-primary margin-bottom-2 text-align-center">Woof Do They Say?</h2>
+        <h4 class="tertiary-heading-primary margin-bottom-8 text-align-center">Puppy Testimonials</h4>
+        <div class="testimonials-box">
+            <div class="testimonials-image">
+                <img src="img/puppy-paw-02.png" alt="image" class="margin-bottom-2">
+                <p class="primary-text-grey margin-bottom-2">"Trey is fantastic! I asked him a ton of questions about our new dog and he was so kind to oblige. He really dives into the reasoning behind why dogs act the way they do and how to establish healthy boundaries to ultimately have a well- trained dog. Tune-up pup is great!"</p>
+                <h4 class="tertiary-heading-primary">Christine R.</h4>
+            </div>
+            <div class="testimonials-image">
+                <img src="img/puppy-paw-02.png" alt="image" class="margin-bottom-2">
+                <p class="primary-text-grey margin-bottom-2">"Tune-Up Pup did wonders with our Penny. Trey is a true professional in everyway and is the most amazing dog trainer. He had our pup Penny listening and obeying within minutes. Whether you do one session or a full package, I am confident you will get incredible value. Worth every dollar!"</p>
+                <h4 class="tertiary-heading-primary">Joshua R.</h4>
+            </div>
+            <div class="testimonials-image">
+                <img src="img/puppy-paw-02.png" alt="image" class="margin-bottom-2">
+                <p class="primary-text-grey margin-bottom-2">"Trey is a professional dog whisper! He had all the wisdom and guidance to help us with our Lhasa Apso. Trey is really an expert in how dogs think, submit and respond to training. We were so happy to have Coco obedient and well mannered.  We cannot thank Trey enough!"</p>
+                <h4 class="tertiary-heading-primary">Cecille</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2 class="primary-heading-primary margin-bottom-2">Contact Our Team</h2>
+                <h4 class="tertiary-heading-primary margin-bottom-4">We'd love to chat with you!</h4>
+                <p class="primary-text-grey">Our heart is to bring back peace and joy back into your household. <br>
+                    If you have further questions, a unique situation, or would like to discuss building a custom training program for you and your family… Please don’t hesitate to contact us. Looking forward to hearing from you!</p>
+            </div>
+            <div class="contact-box">
+                <form action="">
+                    <div class="contact-box1">
+                        <div class="contact-box1-item">
+                            <h5>First Name*</h5>
+                            <input type="text" name="First Name" id="" class="input" required>
+                        </div>
+                    </div>
+                    <div class="contact-box2">
+                        <div class="contact-box2-item">
+                            <h5>Phone Number*</h5>
+                            <input type="text" name="First Name" id="" class="input" required>
+                        </div>
+                        <div class="contact-box2-item">
+                            <h5>Email*</h5>
+                            <input type="text" name="First Name" id="" class="input" required>
+                        </div>
+                    </div>
+                    <div class="contact-box3">
+                        <div class="contact-box3-item">
+                            <h5>Message*</h5>
+                            <textarea name="Message" id="" cols="30" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <div class="contact-box-submit margin-top-2 margin-bottom-2">
+                        <div class="contact-button">
+                            <a href="#" class="btn-primary">Submit</a>
+                        </div>
+                        <!-- <input type="submit" value="" class="btn-primary"> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/tune-up-pup-logo-05.png" alt="" class="margin-bottom-1">
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sunt assumenda eaque voluptatibus. Hic accusamus eos cupiditate nihil sunt repellendus, quia temporibus iure a quod labore animi voluptatem ipsum aperiam commodi. Tenetur fuga provident recusandae laudantium dolorum quasi soluta voluptates.</p>
+                <p>Copyright © 2021 Tune-Up Pup - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3 class="margin-bottom-1">Site Map</h3>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="services.html"><li>Training</li></a>
+                    <a href="services.html"><li>Testimonials</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3 class="margin-bottom-1">Social Media</h3>
+                <a href="https://www.instagram.com/tuneuppup/" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="https://www.facebook.com/tuneuppup/" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="https://www.instagram.com/tuneuppup/" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3 class="margin-bottom-1">Contact Info</h3>
+                <a href="tel:206-439-5787"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:darnesha@blackcoffeenw.com"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------- MODALS -------------------- -->
+<!-- Boiler Plate -->
+<!-- <div id="target-content">
+    <a href="#" class="close"></a>
+    <div id="target-inner">
+      <h2>Modal Heading</h2>
+      <p>Modal Content</p>
+    </div>
+  </div> -->
+
+<!-- Services Details Modal -->
+<div id="services-details-content">
+    <a href="#services" class="close"></a>
+    <div id="services-details-inner">
+      
+        <!-- services Details Section -->
+        <section class="services-details padding-top-8 padding-bottom-8">
+            <div class="container">
+                <h4 class="tertiary-heading-primary margin-bottom-1">Full Package Details</h4>
+                <h2 class="primary-heading-primary margin-bottom-4">Puppy Packages</h2>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 1 | $399</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    2 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Traveling charge for over 35 miles Renton
+                </p>
+        
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 2 | $999</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    4 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($600) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    Traveling charge for over 50 miles Renton
+                </p>
+
+                <h3 class="tertiary-heading-primary margin-bottom-2">Package 3 | $2500</h3>
+                <p class="primary-text-grey margin-bottom-4">
+                    7 In-home training sessions <br>
+                    first session is 90-120 minutes ($250), second session is 60-80 minutes ($1200) <br>                   
+                    Slip collar ($15) <br>                   
+                    Leash ($20) <br>
+                    Text support ($100) <br>
+                    Call support ($150) <br>
+                    Access to monthly meet in the park training sessions ($50) <br>
+                    36 hour training and boarding ($1200) <br>
+                    E-collar and e-collar training ($400) <br>
+                    15% discount on all future trainings <br>
+                    No traveling charge for the greater Seattle area 
+                </p>
+        
+            </div>
+        </section>
+
+    </div>
+</div>
+<!-- Services Details Modal -->
+
+<!-- --------------------- MODALS -------------------- -->
+
+</body>
+</html>

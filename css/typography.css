@@ -1,0 +1,110 @@
+.primary-heading-primary {
+    color: var(--color-third);
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.primary-heading-white {
+    color: var(--color-white);
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.primary-heading-accent {
+    color: var(--color-accent);
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.secondary-heading-primary {
+    color: var(--color-primary);
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.secondary-heading-accent {
+    color: var(--color-accent);
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.secondary-heading-white {
+    color: var(--color-white);
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.tertiary-heading-primary {
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.tertiary-heading-accent {
+    color: var(--color-accent);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.tertiary-heading-white {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.primary-text-accent {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--color-accent);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.primary-text-grey {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--color-medium-grey);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.primary-text-white {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
