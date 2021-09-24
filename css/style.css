@@ -886,6 +886,16 @@ body {
     align-items: center;
 }
 
+.contact-box-submit .btn-primary {
+    font-family: inherit;
+    border: none;
+}
+
+.contact-box-submit input:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
 .contact-box1 {
     margin: 2rem 0;
 }
