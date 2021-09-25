@@ -131,6 +131,7 @@ body {
     height: var(--bar-height);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
     transition: background 0.15s;
+    background: var(--color-light-grey);
 }
 
 .bar--bg {
