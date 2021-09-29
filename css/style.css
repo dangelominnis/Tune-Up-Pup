@@ -131,11 +131,11 @@ body {
     height: var(--bar-height);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
     transition: background 0.15s;
-    background: var(--color-light-grey);
+    background: var(--color-third);
 }
 
 .bar--bg {
-    background: var(--color-light-grey);
+    background: var(--color-third);
 }
 
 .bar__content {
@@ -1419,15 +1419,24 @@ body {
         align-items: center;
     }
 
+    .nav {
+        background: var(--color-third);
+    }
+    
+    .nav .btn-primary {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
     /* About Section */
     .about-box {
         flex-direction: column-reverse;
-        margin: 0 4rem;
+        margin: 0 2rem;
     }
 
     .about-image img {
-        width: 150px;
-        margin-bottom: 4rem;
+        width: 200px;
+        margin-bottom: 6rem;
     }
 
     .about-button {
@@ -1439,6 +1448,7 @@ body {
     /* Mission Section */
     .mission-box {
         flex-direction: column;
+        margin: 0 2rem;
     }
 
     .mission-image {
@@ -1480,6 +1490,10 @@ body {
     }
 
     /* Info Section */
+    .info-box {
+        margin: 0 2rem;
+    }
+
     .info h4 {
         margin-bottom: 5rem;
     }
@@ -1490,11 +1504,11 @@ body {
     /* Prestige Section */
     .prestige-box {
         flex-direction: column-reverse;
-        margin: 0 4rem;
+        margin: 0 2rem;
     }
 
     .prestige-image img {
-        width: 150px;
+        width: 200px;
         margin-bottom: 6rem;
     }
 
@@ -1507,11 +1521,11 @@ body {
     /* Puppy Section */
     .puppy-box {
         flex-direction: column-reverse;
-        margin: 0 4rem;
+        margin: 0 2rem;
     }
 
     .puppy-image img {
-        width: 150px;
+        width: 200px;
         margin-bottom: 6rem;
     }
 
@@ -1541,6 +1555,8 @@ body {
 
     /* Banner Section */
     .banner-box {
+        height: 0vh;
+        padding: 8rem 0;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
