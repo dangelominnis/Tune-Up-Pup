@@ -60,8 +60,8 @@ body {
     height: 100%;
     width: 100%;
     z-index: -1;
-    /* background: rgba(0, 0, 0, 0.3);  */
-    background: rgba(75, 74, 74, 0.5); 
+    background: rgba(0, 0, 0, 0.2); 
+    /* background: rgba(75, 74, 74, 0.5);  */
 }
 
 .u-centered {
@@ -131,11 +131,11 @@ body {
     height: var(--bar-height);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
     transition: background 0.15s;
-    background: var(--color-third);
+    background: var(--color-light-grey);
 }
 
 .bar--bg {
-    background: var(--color-third);
+    background: var(--color-light-grey);
 }
 
 .bar__content {
@@ -184,7 +184,7 @@ body {
 }
 
 .nav__link {
-    color: var(--color-white);
+    color: var(--color-third);
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 1px;
