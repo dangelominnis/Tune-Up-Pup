@@ -91,10 +91,11 @@ body {
     align-items: left;
     padding: 4rem;
     background: var(--color-light-grey);
-    border: 5px solid var(--color-third);
+    /* border: 5px solid var(--color-third); */
     border-radius: 24px;
     max-width: 400px;
     max-height: 550px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35);
 }
 
 .header-text h1 {
